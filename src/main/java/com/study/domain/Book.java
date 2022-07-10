@@ -10,6 +10,7 @@ public class Book {
     public String toString() {
         System.out.println("hot-fix commit 1");
         System.out.println("hot-fix commit 2");
+        System.out.println("hot-fix commit 3");
         return "domain{" +
                 "id='" + id + '\'' +
                 ", name='" + name + '\'' +
