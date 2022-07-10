@@ -6,7 +6,15 @@ public class Book {
     private String type;
     private String description;
 
-
+    @Override
+    public String toString() {
+        return "domain{" +
+                "id='" + id + '\'' +
+                ", name='" + name + '\'' +
+                ", type='" + type + '\'' +
+                ", description='" + description + '\'' +
+                '}';
+    }
 
 
     public Integer getId() {
@@ -41,15 +49,7 @@ public class Book {
         this.description = description;
     }
 
-    @Override
-    public String toString() {
-        return "domain{" +
-                "id='" + id + '\'' +
-                ", name='" + name + '\'' +
-                ", type='" + type + '\'' +
-                ", description='" + description + '\'' +
-                '}';
-    }
+
 }
 
 
