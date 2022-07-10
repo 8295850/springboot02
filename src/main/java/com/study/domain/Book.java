@@ -49,6 +49,8 @@ public class Book {
         System.out.println("hot 进行了更新22：43");
         System.out.println("hot 进行了更新22：46");
         System.out.println("hot 进行了更新22：47");
+        System.out.println("hot 进行了更新22：48");
+
         return "domain{" +
                 "id='" + id + '\'' +
                 ", name='" + name + '\'' +
