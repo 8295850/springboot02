@@ -47,6 +47,7 @@ public class Book {
         System.out.println("hot-fix ");
         System.out.println("hot 进行更新22：20");
         System.out.println("hot 进行了更新22：43");
+        System.out.println("hot 进行了更新22：47");
         return "domain{" +
                 "id='" + id + '\'' +
                 ", name='" + name + '\'' +
