@@ -8,6 +8,7 @@ public class Book {
 
     @Override
     public String toString() {
+        System.out.println("hot-fix commit 1");
         return "domain{" +
                 "id='" + id + '\'' +
                 ", name='" + name + '\'' +
