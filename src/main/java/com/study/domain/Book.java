@@ -45,7 +45,7 @@ public class Book {
     public String toString() {
 
         System.out.println("hot-fix ");
-        System.out.println("刚刚已经合并，现在hot-fix 又进行了更新");
+        System.out.println("hot 进行更新22：20");
         return "domain{" +
                 "id='" + id + '\'' +
                 ", name='" + name + '\'' +
