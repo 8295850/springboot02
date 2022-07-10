@@ -43,6 +43,7 @@ public class Book {
 
     @Override
     public String toString() {
+        System.out.println("checkout");
         return "domain{" +
                 "id='" + id + '\'' +
                 ", name='" + name + '\'' +
